@@ -1,5 +1,10 @@
 # opencode-tavily
 
+> [!IMPORTANT]
+> This repository is archived. The plugin is now published as [`@tavily/opencode-plugin`](https://www.npmjs.com/package/@tavily/opencode-plugin), and its source lives in [tavily-ai/skills](https://github.com/tavily-ai/skills/tree/main/.opencode-plugin). The `opencode-tavily` npm package is deprecated and gets no more updates.
+>
+> To switch, replace `"opencode-tavily"` with `"@tavily/opencode-plugin"` in your `opencode.json`. The key is `plugins` on OpenCode 2 and `plugin` on OpenCode 1.
+
 OpenCode plugin for [Tavily](https://tavily.com) — gives your AI agent reliable web search, content extraction, crawling, URL discovery, and deep research with citations.
 
 Supports OpenCode **v1.18.29+ (1.x)** and **v2** using OpenCode's [documented dual-version entrypoint](https://opencode.ai/v2/docs/build/plugins/migrate-v1): v1 calls `server()`, and v2 calls `setup()`.
